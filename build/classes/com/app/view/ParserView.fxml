@@ -22,7 +22,6 @@
                 <HBox AnchorPane.bottomAnchor="0.7" AnchorPane.topAnchor="0.7" AnchorPane.leftAnchor="0.7" AnchorPane.rightAnchor="0.7" >
                     <Button fx:id="fileChoserButton" layoutX="126" layoutY="90" text="Cargar archivos" onAction="#loadFiles" />
                     <Button fx:id="processFilesButton" layoutX="126" layoutY="90" text="Procesar archivos" onAction="#processFiles" />
-                    <Label text="HOLA" />
                 </HBox>
             </children>
         </AnchorPane>
