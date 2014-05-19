@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import com.app.controller.ParserViewController?>
+
+<ParserViewController xmlns:fx="http://javafx.com/fxml" fx:controller="com.app.controller.ParserViewController">
+    <center>
+        <AnchorPane fx:id="tableAnchorPane" >
+            <children>
+                <TableView fx:id="filesTableView"
+                            AnchorPane.bottomAnchor="0.7" AnchorPane.topAnchor="0.7" AnchorPane.leftAnchor="0.7" AnchorPane.rightAnchor="0.7" />
+            </children>
+        </AnchorPane>
+    </center>
+    <right>
+        <AnchorPane fx:id="buttonsAnchorPane" >
+            <children>
+                <HBox AnchorPane.bottomAnchor="0.7" AnchorPane.topAnchor="0.7" AnchorPane.leftAnchor="0.7" AnchorPane.rightAnchor="0.7" >
+                    <Button fx:id="fileChoserButton" layoutX="126" layoutY="90" text="Cargar archivos" onAction="#loadFiles" />
+                    <Button fx:id="processFilesButton" layoutX="126" layoutY="90" text="Procesar archivos" onAction="#processFiles" />
+                    <Label text="HOLA" />
+                </HBox>
+            </children>
+        </AnchorPane>
+    </right>
+</ParserViewController>
