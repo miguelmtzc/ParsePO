@@ -11,7 +11,7 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="ParsePO.jar" size="25105" download="eager" />
+    <jar href="ParsePO.jar" size="8311" download="eager" />
   </resources>
 <security>
   <all-permissions/>
