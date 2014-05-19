@@ -55,6 +55,9 @@ public class ParserViewController extends BorderPane implements Initializable {
                 invalidFilesList.add(file.getName());
             }
         });
+       
+        
+        
         
         /*for(File file : files){
             if(file.getPath().endsWith(".txt")){
